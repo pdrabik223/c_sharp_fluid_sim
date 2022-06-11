@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:c_sharp_fluid_sim"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" >
-    <Canvas Name="screen" MouseDown="MouseDownHandler" Background="DarkGray">
+    <Canvas Name="screen" MouseDown="MouseDownHandler" Background="DarkGray" MouseMove="MouseMoveHandler">
         
     </Canvas>
 </Window>
